@@ -1,0 +1,74 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.label.exclusive {
+	background: #55ca26;
+}
+.single-label.exclusive span {
+	background: #55ca26;
+}
+.single-label.exclusive:after {
+	border-color: transparent #2e9106 transparent transparent;
+}
+.popular-list .wpp-author {
+	float: left;
+	color: #0ca6cd;
+	font-style: italic;
+	font-family: "Lato", "Arial", "Helvetica", sans-serif;
+}
+.popular-list .wpp-author a {color: #0ca6cd;}
+.popular-list .wpp-date {
+	position: relative;
+	margin: 0 0 0 15px;
+	color: #8e8e8e;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+.popular-list .wpp-date:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	bottom: 2px;
+	left: -11px;
+	width: 1px;
+	background: #8e8e8e;
+}
+.aside-banner {margin: 0;}
+.yarpp-related .article h3 {
+	font-size: 16px !important;
+	line-height: 1.25 !important;
+	margin: 0 0 8px !important;
+	padding: 0 !important;
+}
+.single-post .yarpp-related .meta {
+	font-size: 11px;
+	line-height: 1.27;
+	padding: 0;
+}
+#content .yarpp-related {margin: 0 !important;}
+body.archive .article {color: #383838;}
+.video-box p {margin: 0;}
+.related-playlists .author {
+    float: none;
+    line-height: inherit;
+}
+body.single-post {margin: 0;}
+.btn-seemore {
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	padding: 6px 10px;
+	min-width: 300px;
+	background: #ccc;
+}
+.btn-seemore:hover {
+	background: #999;
+	text-decoration: none;
+}
+@media all and (max-width: 767px) {
+	.btn-seemore {min-width: 160px;}
+}
