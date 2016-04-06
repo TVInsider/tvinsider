@@ -1,4 +1,10 @@
 <?php
+/*
+Template Name: Deploy Template
+*/
+?>
+
+<?php
 	/**
 	 * GIT DEPLOYMENT SCRIPT
 	 *
