@@ -73,7 +73,7 @@ get_header(); ?>
 							<h2><a href="<?php echo get_permalink($_post->ID); ?>" rel="bookmark"><?php $subhead = get_field('short_headline', $_post->ID); if($subhead) {echo $subhead;} else {echo get_the_title($_post->ID);}?></a></h2>
 							<div class="meta">
 								<a href="<?php echo get_author_posts_url(get_the_author_ID($_post->ID)); ?>" class="author"><?php echo get_author_name(get_the_author_ID($_post->ID)); ?></a>
-								<time class="date" datetime="<?php the_time('Y-m-d') ?>T<?php the_time('g:i') ?>"> <?php the_time('F j, Y g:i a') ?></time>
+								<time class="date"> <?php $tme = get_the_time( 'F j, Y g:i a', $_post->ID ); echo ($tme);  ?></time>
 							</div>
 						</div>
 					</article>
