@@ -99,7 +99,7 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-Interstitial'); })
 	<header id="header">
 		<div class="container">
 			<div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" width="223" height="43"></a>
-			<span>from the editors of <em><a href="http://www.tvguidemagazine.com/">TV Guide Magazine</a></em></span></div>
+			<span>f rom the editors of <em><a href="http://www.tvguidemagazine.com/">TV Guide Magazine</a></em></span></div>
 			<div class="frame">
 				<nav id="nav">
 					<div class="btn-box">
